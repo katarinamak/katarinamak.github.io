@@ -30,9 +30,9 @@
   );
   --bg-gradient-jet: linear-gradient(
     to bottom right, 
-    hsla(240, 1%, 18%, 0.251) 0%, 
-    hsla(240, 2%, 11%, 0) 100%
-  ), hsl(240, 2%, 13%);
+    hsl(240, 33%, 98%) 0%, 
+    hsl(240, 11%, 95%) 100%
+  ), hsl(240, 30%, 96%);
   --bg-gradient-blue-1: linear-gradient(
     to bottom right, 
     hsl(221, 49%, 65%) 0%, 
@@ -48,7 +48,7 @@
     hsl(0, 0%, 25%) 0%, 
     hsla(0, 0%, 25%, 0) 50%
   );
-  --text-gradient-yellow: linear-gradient(
+  --text-gradient-blue: linear-gradient(
     to right, 
     hsl(193, 100%, 72%), 
     hsl(244, 100%, 68%)
