@@ -9,16 +9,16 @@ Web developer
 Show Contacts
 
 Email
-richard@example.com
+kmakivic@uwaterloo.ca
 
 Phone
-+1 (213) 352-2795
++1 (647) 802-5292
 
 Birthday
-June 23, 1982
+March 8, 2002
 
 Location
-Sacramento, California, USA
+Toronto, ON, Canada
 
 # navbar
 
@@ -32,9 +32,7 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+I'm a fourth year computer science student at the University of Waterloo. 
 
 
 ## service
@@ -93,31 +91,29 @@ Resume
 
 Education
 
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+University of Waterloo
+2020 - 2025
+Computer Science with Co-op
 
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
-
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+North Toronto Collegiate Institute
+2016 — 2020
 
 Experience
 
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+Amazon Web Services | Backend Software Engineer
+January - August 2024
 
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Microsoft | Full Stack Software Engineer
+May - August 2023
 
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Auvik Networks | Backend Software Developer
+January — April 2023
+
+Royal Bank of Canada | Backend Software Developer
+May - August 2022
+
+Toronto Star | Quality Assurance Engineer
+May - August 2021
 
 My skills
 
