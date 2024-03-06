@@ -393,7 +393,7 @@ main {
 }
 
 .contact-title {
-  color: var(--light-gray-70);
+  color: var(--eerie-black-1);
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
@@ -416,12 +416,12 @@ main {
 }
 
 .social-item .social-link {
-  color: var(--light-gray-70);
+  color: var(--eerie-black-1);
   font-size: 18px;
 }
 
 
-.social-item .social-link:hover { color: var(--light-gray); }
+.social-item .social-link:hover { color: var(--eerie-black-1); }
 
 
 
@@ -1330,7 +1330,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button:hover { color: var(--light-gray-70); }
 
-  .filter-item button.active { color: var(--eerie-black-1); }
+  .filter-item button.active { color: var(--light-gray-70); }
 
   /* portfolio and blog grid */
 
