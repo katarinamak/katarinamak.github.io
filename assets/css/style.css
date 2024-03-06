@@ -322,7 +322,7 @@ main {
 }
 
 .info-content .title {
-  color: var(--eerie-black-1);
+  color: var(--light-gray);
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
@@ -475,7 +475,7 @@ main {
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
-  color: var(--light-gray);
+  color: var(--eerie-black-1);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
@@ -501,7 +501,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: var(--bg-gradient-jet);
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
