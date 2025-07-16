@@ -1,948 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/profile-pic.jpg" alt="Katarina Makivic" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Katarina Makivic">Katarina Makivic</h1>
-
-          <p class="title">Software developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="kmakivic@uwaterloo.ca" class="contact-link">kmakivic@uwaterloo.ca</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+16478025292" class="contact-link">+1 (647) 802-5292</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2002-03-08">March 08, 2002</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Toronto, ON, Canada</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/katarina-makivic/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://github.com/katarinamak" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I'm a fourth year computer science student at the University of Waterloo. I have a passion for backend development and have experience with a variety of programming languages and frameworks. I am currently seeking new grad roles starting in 2025.
-          </p>
-
-          <p>
-            I am a quick learner and am always looking to expand my skill set. I am currently working as a software developer intern at AWS, where I'm working on the DynamoDB storage layer.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-<!-- 
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title"></h4>
-
-                <p class="service-item-text">
-                  
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title"></h4>
-
-                <p class="service-item-text">
-
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title"></h4>
-
-                <p class="service-item-text">
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title"></h4>
-
-                <p class="service-item-text">
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section> -->
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University of Waterloo</h4>
-
-              <span>2020 — 2025</span>
-
-              <p class="timeline-text">
-                Computer science with co-op.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">North Toronto Collegiate Institute</h4>
-
-              <span>2016 — 2020</span>
-
-              <p class="timeline-text">
-              </p>
-
-            </li>
-
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title"></h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Katarina Makivic</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Ionicons for icons -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
 
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Name / Hero Section -->
+    <section id="home" class="hero">
+      <h1>Katarina Makivic</h1>
+      <p class="subtitle">Software Developer</p>
+      <div class="icon-links">
+        <a href="mailto:kmakivic@uwaterloo.ca" aria-label="Email"><ion-icon name="mail-outline"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/katarina-makivic/" target="_blank" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="https://github.com/katarinamak" target="_blank" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a>
+      </div>
+    </section>
+
+    <!-- <section id="photo" class="content">
+      <img src="/assets/images/profile_pic2.jpeg" alt="Photo of Katarina Makivic" class="profile-photo" />
+    </section>
+     -->
+    <!-- About Section -->
+    <section id="about" class="content fade-in">
+      <h2>About Me</h2>
+      <p>
+        Hi! I’m Katarina and I recently graduated from the University of Waterloo with a degree in Computer Science. Over the past few years, I’ve worked at a wide range of companies and industries, and I’ve found myself most drawn to the challenge of building systems that reliably store and manage ever-growing volumes of data.
+
+        As the world produces more data than ever before, one of the most important questions in tech is how we store, move, and make use of that data in ways that are reliable, efficient, and meaningful. I want to contribute to building and designing systems that can keep up with the rapid pace of change, while shaping how we use technology to solve real-world problems.
+        
+      </p>
+      <br>
+      <p>
+        I’m especially drawn to backend development because it gives me a chance to think deeply and build things that really work. I enjoy approaching problems analytically, weighing different options, and designing solutions that are both practical and robust. My goal is to contribute to work that has real impact and to collaborate with people who care about both the technology and the purpose behind it.
+      </p>
+
+      <br>
+      <p>
+        Outside of work, I’m always learning and exploring. I love running, hiking, reading, baking, playing the piano, and traveling. I'm a big believer in balance, and I’ve found that contrasting my very technical work with creative hobbies helps keep me curious and inspired. 
+      </p>
+      <br>
+      <p>If any of this resonates with you, I’d love to connect and hear your thoughts. Please feel free to reach out!</p>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="content fade-in">
+      <h2>Resume</h2>
+      <div class="job">
+        <h3>Backend Software Development Engineer Intern, Amazon AWS DynamoDB</h3>
+        <p><strong>Jan 2024 – Aug 2024</strong></p>
+        <p>What happens when the same data is stored in multiple parts of a system? Do we need multiple leaders to ensure consistency? How can we leverage existing tools to improve availability, efficiency, and durability? Can we adapt components of existing consensus algorithms to better suit DynamoDB’s unique architecture and workload?</p>
+        <br>
+        <p>These were some of the challenging questions I explored during my internship at AWS DynamoDB. My project centered on designing and implementing a new <strong>leaderless replication protocol</strong> for global secondary indexes. This experience deepened my understanding of the complex trade-offs involved in building <strong>high-throughput, distributed systems</strong> at scale. The new architecture I developed demonstrated promising results—<strong>improving write throughput and reducing index propagation latency by 30%</strong>, ultimately leading to stronger data consistency guarantees.</p>
+
+        <p>Amazon’s strong writing culture and rigorous design processes gave me the opportunity to drive technical discussions, collaborate with senior and principal engineers, and present trade-off analyses that shaped the final design of the system.</p>
+      </div>
+      <div class="job">
+        <h3>Fullstack Software Engineer Intern, Microsoft</h3>
+          <p> At Microsoft, I worked on the <strong>Photos App</strong>, which is used by over half a billion users worldwide. My primary project involved <strong>designing and implementing a telemetry API from the ground up</strong> to capture user behavior, preferences, and performance metrics. Telemetry is essential for understanding product usage patterns and optimizing user experience, so it was critical to make thoughtful architectural decisions early on to ensure the API was <strong>scalable, reliable, and extensible</strong> as the app evolved.
+          By building a reliable pipeline to collect high-quality telemetry data, I helped provide the foundation for data science teams to uncover meaningful insights and drive impactful product improvements.
+          
+          In my second project, I transitioned to the frontend, where I enhanced the Photos App's user interface by <strong>developing new features that allow users to select, share, and delete multiple photos and videos simultaneously</strong>. This significantly streamlined bulk media management and improved overall usability.
+          
+          Together, these experiences gave me a full-stack perspective - from backend systems design to user-facing UI development—and strengthened my skills in building impactful, user-centric software.
+          
+          </p>
+      </div>
+      <div class="job">
+        <h3>Backend Software Developer Intern, Auvik Networks</h3>
+        <p><strong>Jan 2023 – Apr 2023</strong></p>
+          <p> On the Platform Data Lifecycle team at Auvik Networks, I focused on the backup, migration, and restoration of critical platform data. The system pulled data from multiple sources and storage formats, including relational databases, AWS S3, graph databases, and streams, which pushed me to think carefully about how data moves, transforms, and gets preserved across complex systems, as well as how different storage models support diverse system needs.
+          To track the flow and transformation of data across services, I designed and implemented a <strong>data dependency graph</strong> that modeled how data moved through the system. This enabled teams to apply familiar graph traversal algorithms to assess the current state of the data and its progression through processing stages.
+          
+          In contributing to Auvik’s microservices-based architecture, I gained practical insight into service-oriented design and the tradeoffs compared to traditional monolithic systems. I also built experience with modern deployment and orchestration tools such as <strong>Docker and Kubernetes</strong>, which broadened my understanding of scalable infrastructure and DevOps workflows.
+          
+          </p>
+      </div>
+      <div class="job">
+        <h3>Backend Software Developer Intern, Royal Bank of Canada</h3>
+        <p><strong>Jan 2022 – Apr 2022</strong></p>
+          <p> At RBC, I joined a team building a platform to automate conditional mortgage approvals. Since we were building the system from the ground up, it was important to consider the long-term impact of every design decision we were making. I contributed to scoping, developing, and testing end-to-end features, and played an active role in early discussions around feature requirements and relational database design with both engineers and business analysts.
+          Being part of a product at this stage taught me to think beyond just immediate implementation and instead consider how systems evolve, how requirements shift, and how to design for growth and change. To help ensure our APIs were reliable as the system scaled, I implemented <strong>Pact contract tests</strong> across 60% of our services, catching integration issues before they hit production and improving our test coverage.
+          
+          It was a hands-on experience that taught me to think beyond just making things work and focus on building systems that are resilient, maintainable, and built to last.     
+          </p>
+      </div>
+      <div class="job">
+        <h3>Quality Assurance Intern, The Toronto Star</h3>
+        <p><strong>May 2021 – Aug 2021</strong></p>
+          <p> At the Toronto Star, I worked on automating tests for the mobile app across both Android and iOS. Having been involved with my high school newspaper, I’ve always cared deeply about journalism and the role it plays in our society. Even as the industry faces challenges, I believe it's more important than ever to build strong digital platforms that make news more accessible and keep people engaged. 
+          Working in QA gave me a new perspective on software development and taught me to think carefully about how systems behave in the real world. Since then, I’ve brought that mindset into every project, focusing on writing code that is reliable, testable, and resilient. It was an early experience that shaped how I approach building software, focusing not only on functionality but also on quality and user experience.
+          </p>
+      </div>
+    </section>
+
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="content fade-in">
+      <h2>Portfolio</h2>
+      
+      <div class="portfolio-item">
+        <img src="/assets/images/capstone_team_photo.JPEG" alt="Hematopoietic Stem Cell Research" />
+        <a href="https://cs.uwaterloo.ca/news/biochemistry-cs-students-combine-expertise-automate-blood-stem-cell-analysis" target="_blank">
+          Hematopoietic Stem Cell Research with Princess Margaret Cancer Centre
+        </a>
+      </div>
+    
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="content fade-in">
+      <h2>Blog</h2>
+      <div class="blog-posts">
+        <article class="post">
+          <h3>How I Automated Cell Image Classification</h3>
+          <p class="excerpt">A deep dive into building a pipeline for microscopy image preprocessing and classification using PyTorch and ResNet.</p>
+          <a href="#">Read more</a>
+        </article>
+        <article class="post">
+          <h3>Reflections on My Time at Waterloo</h3>
+          <p class="excerpt">Some key lessons learned during my time as a computer science student at the University of Waterloo.</p>
+          <a href="#">Read more</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
