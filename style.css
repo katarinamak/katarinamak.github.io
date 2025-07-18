@@ -58,8 +58,8 @@ section {
 }
 
 .navbar ul li a.active {
-  border-bottom: 2px solid #90B77D;
-  color: #90B77D;
+  border-bottom: 2px solid #95a3e1;
+  color: #95a3e1;
   font-weight: 600;
 }
 
@@ -140,7 +140,7 @@ section {
 
 .blog-posts .post a {
   text-decoration: none;
-  color: #3A3A3A;
+  color: #95a3e1;
 }
 
 .blog-posts .post a:hover {
@@ -181,7 +181,7 @@ button, .content {
 
 .portfolio-item a {
   font-weight: 600;
-  color: #3A3A3A;
+  color: #95a3e1;
   text-decoration: none;
   font-size: 1.1rem;
   text-align: center;
